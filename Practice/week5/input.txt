@@ -1,3 +1,3 @@
-subtract
+multiply
 5
 3
