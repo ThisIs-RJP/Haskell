@@ -1,8 +1,10 @@
 -- Sweets per child
 
-sweets :: Int -> Int -> Int
-sweets x y = x `div` y
+sweets :: Int -> Int
+sweets x = x `div` 10
 
 main :: IO ()
 main = do
     x <- getLine
+
+    putStrLn (show (sweets (read x)))
