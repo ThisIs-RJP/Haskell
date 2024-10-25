@@ -7,4 +7,4 @@ main :: IO ()
 main = do
     x <- getLine
 
-    putStrLn (show (sweets (read x)))
+    print (sweets (read x))

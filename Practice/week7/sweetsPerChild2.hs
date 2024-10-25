@@ -2,10 +2,10 @@
 
 main :: IO ()
 main = do
-    x <- getLine 
+    x <- getLine
 
     let y = 10
 
     let (q, r) = divMod (read x) y
 
-    putStrLn $ show (r)
+    print r
